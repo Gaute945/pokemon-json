@@ -1,0 +1,128 @@
+﻿[
+    {
+        "type": "normal",
+        "attackpro": "none",
+        "attackcon": "rock, steel, ghost",
+        "defensepro": "ghost",
+        "defensecon": "fighting"
+    },
+    {
+        "type": "fire",
+        "attackpro": "grass, ice, bug, steel",
+        "attackcon": "fire, water, rock, dragon",
+        "defensepro": "fire, grass, ice, bug, steel, fairy",
+        "defensecon": "water, ground, rock"
+    },
+    {
+        "type": "water",
+        "attackpro": "fire, ground, rock",
+        "attackcon": "water, grass, dragon",
+        "defensepro": "fire, water, ice, steel",
+        "defensecon": "electric, grass"
+    },
+    {
+        "type": "electric",
+        "attackpro": "water, flying",
+        "attackcon": "electric, grass, dragon, ground",
+        "defensepro": "electric, flying, steel",
+        "defensecon": "ground"
+    },
+    {
+        "type": "grass",
+        "attackpro": "water, ground, rock",
+        "attackcon": "fire, grass, poison, flying, bug, dragon, steel",
+        "defensepro": "water, electric, grass, ground",
+        "defensecon": "fire, ice, poison, flying, bug"
+    },
+    {
+        "type": "ice",
+        "attackpro": "grass, ground, flying, dragon",
+        "attackcon": "fire, water, ice, steel",
+        "defensepro": "ice",
+        "defensecon": "fire, fighting, rock, steel"
+    },
+    {
+        "type": "fighting",
+        "attackpro": "normal, ice, rock, dark, steel",
+        "attackcon": "poison, flying, psychic, bug, fairy, ghost",
+        "defensepro": "bug, rock, dark",
+        "defensecon": "flying, psychic, fairy"
+    },
+    {
+        "type": "poison",
+        "attackpro": "grass, fairy",
+        "attackcon": "poison, ground, rock, ghost, steel",
+        "defensepro": "grass, fighting, poison, bug, fairy",
+        "defensecon": "ground, psychic"
+    },
+    {
+        "type": "ground",
+        "attackpro": "fire, electric, poison, rock, steel",
+        "attackcon": "grass, bug, water",
+        "defensepro": "electric, poison, rock",
+        "defensecon": "water, grass, ice"
+    },
+    {
+        "type": "flying",
+        "attackpro": "grass, fighting, bug",
+        "attackcon": "electric, rock, steel",
+        "defensepro": "ground, grass, fighting, bug",
+        "defensecon": "electric, ice, rock"
+    },
+    {
+        "type": "psychic",
+        "attackpro": "fighting, poison",
+        "attackcon": "psychic, steel, dark",
+        "defensepro": "fighting, psychic",
+        "defensecon": "bug, ghost, dark"
+    },
+    {
+        "type": "bug",
+        "attackpro": "grass, psychic, dark",
+        "attackcon": "fire, fighting, poison, flying, ghost, steel, fairy",
+        "defensepro": "grass, fighting, ground",
+        "defensecon": "fire, flying, rock"
+    },
+    {
+        "type": "rock",
+        "attackpro": "fire, ice, flying, bug",
+        "attackcon": "fighting, ground, steel",
+        "defensepro": "normal, fire, poison, flying",
+        "defensecon": "water, grass, fighting, ground, steel"
+    },
+    {
+        "type": "ghost",
+        "attackpro": "psychic, ghost",
+        "attackcon": "dark, normal",
+        "defensepro": "normal, fighting, poison, bug",
+        "defensecon": "ghost, dark"
+    },
+    {
+        "type": "dragon",
+        "attackpro": "dragon",
+        "attackcon": "steel, fairy",
+        "defensepro": "fire, water, electric, grass",
+        "defensecon": "ice, dragon, fairy"
+    },
+    {
+        "type": "dark",
+        "attackpro": "psychic, ghost",
+        "attackcon": "fighting, dark, fairy",
+        "defensepro": "psychic, ghost, dark",
+        "defensecon": "fighting, bug ,fairy"
+    },
+    {
+        "type": "steel",
+        "attackpro": "ice, rock, fairy",
+        "attackcon": "fire, water, electric, steel",
+        "defensepro": "poison, normal, grass, ice, flying, psychic, bug, rock, dragon, steel, fairy",
+        "defensecon": "fire, fighting, ground"
+    },
+    {
+        "type": "fairy",
+        "attackpro": "fighting, dragon, dark",
+        "attackcon": "fire, poison, steel",
+        "defensepro": "dragon, fighting, bug, dark",
+        "defensecon": "poison, steel"
+    }
+]
