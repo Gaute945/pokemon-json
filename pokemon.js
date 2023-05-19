@@ -62,112 +62,273 @@ async function getpokemon() {
 }
 getpokemon();
 
+var is2open = 0;
+
 function showNormal() {
-    hideAllParagraphs();
-    var p = document.getElementsByTagName("p")[0];
-    p.classList.remove("hidden");
+    if (is2open == 2) {
+        hideAllParagraphs()
+        is2open = 1;
+        var p = document.getElementsByTagName("p")[0];
+        p.classList.remove("hidden");
+        return is2open;
+    } else {
+        is2open ++
+        var p = document.getElementsByTagName("p")[0];
+        p.classList.remove("hidden");
+        return is2open;
+    }
 }
 
 function showFire() {
-    hideAllParagraphs();
-    var p = document.getElementsByTagName("p")[1];
-    p.classList.remove("hidden");
+    if (is2open == 2) {
+        hideAllParagraphs()
+        is2open = 1;
+        var p = document.getElementsByTagName("p")[1];
+        p.classList.remove("hidden");
+        return is2open;
+    } else {
+        is2open ++
+        var p = document.getElementsByTagName("p")[1];
+        p.classList.remove("hidden");
+        return is2open;
+    }
 }
 
 function showWater() {
-    hideAllParagraphs();
-    var p = document.getElementsByTagName("p")[2];
-    p.classList.remove("hidden");
+    if (is2open == 2) {
+        hideAllParagraphs()
+        is2open = 1;
+        var p = document.getElementsByTagName("p")[2];
+        p.classList.remove("hidden");
+        return is2open;
+    } else {
+        is2open ++
+        var p = document.getElementsByTagName("p")[2];
+        p.classList.remove("hidden");
+        return is2open;
+    }
 }
 
 function showElectric() {
-    hideAllParagraphs();
-    var p = document.getElementsByTagName("p")[3];
-    p.classList.remove("hidden");
+    if (is2open == 2) {
+        hideAllParagraphs()
+        is2open = 1;
+        var p = document.getElementsByTagName("p")[3];
+        p.classList.remove("hidden");
+        return is2open;
+    } else {
+        is2open ++
+        var p = document.getElementsByTagName("p")[3];
+        p.classList.remove("hidden");
+        return is2open;
+    }
 }
 
 function showGrass() {
-    hideAllParagraphs();
-    var p = document.getElementsByTagName("p")[4];
-    p.classList.remove("hidden");
+    if (is2open == 2) {
+        hideAllParagraphs()
+        is2open = 1;
+        var p = document.getElementsByTagName("p")[4];
+        p.classList.remove("hidden");
+        return is2open;
+    } else {
+        is2open ++
+        var p = document.getElementsByTagName("p")[4];
+        p.classList.remove("hidden");
+        return is2open;
+    }
 }
 
 function showIce() {
-    hideAllParagraphs();
-    var p = document.getElementsByTagName("p")[5];
-    p.classList.remove("hidden");
+    if (is2open == 2) {
+        hideAllParagraphs()
+        is2open = 1;
+        var p = document.getElementsByTagName("p")[5];
+        p.classList.remove("hidden");
+        return is2open;
+    } else {
+        is2open ++
+        var p = document.getElementsByTagName("p")[5];
+        p.classList.remove("hidden");
+        return is2open;
+    }
 }
 
 function showFighting() {
-    hideAllParagraphs();
-    var p = document.getElementsByTagName("p")[6];
-    p.classList.remove("hidden");
+    if (is2open == 2) {
+        hideAllParagraphs()
+        is2open = 1;
+        var p = document.getElementsByTagName("p")[6];
+        p.classList.remove("hidden");
+        return is2open;
+    } else {
+        is2open ++
+        var p = document.getElementsByTagName("p")[6];
+        p.classList.remove("hidden");
+        return is2open;
+    }
 }
 
 function showPoison() {
-    hideAllParagraphs();
-    var p = document.getElementsByTagName("p")[7];
-    p.classList.remove("hidden");
+    if (is2open == 2) {
+        hideAllParagraphs()
+        is2open = 1;
+        var p = document.getElementsByTagName("p")[7];
+        p.classList.remove("hidden");
+        return is2open;
+    } else {
+        is2open ++
+        var p = document.getElementsByTagName("p")[7];
+        p.classList.remove("hidden");
+        return is2open;
+    }
 }
 
 function showGround() {
-    hideAllParagraphs();
-    var p = document.getElementsByTagName("p")[8];
-    p.classList.remove("hidden");
+    if (is2open == 2) {
+        hideAllParagraphs()
+        is2open = 1;
+        var p = document.getElementsByTagName("p")[8];
+        p.classList.remove("hidden");
+        return is2open;
+    } else {
+        is2open ++
+        var p = document.getElementsByTagName("p")[8];
+        p.classList.remove("hidden");
+        return is2open;
+    }
 }
 
 function showFlying() {
-    hideAllParagraphs();
-    var p = document.getElementsByTagName("p")[9];
-    p.classList.remove("hidden");
+    if (is2open == 2) {
+        hideAllParagraphs()
+        is2open = 1;
+        return is2open;
+    } else {
+        is2open ++
+        var p = document.getElementsByTagName("p")[9];
+        p.classList.remove("hidden");
+        return is2open;
+    }
 }
 
 function showPsychic() {
-    hideAllParagraphs();
-    var p = document.getElementsByTagName("p")[10];
-    p.classList.remove("hidden");
+    if (is2open == 2) {
+        hideAllParagraphs()
+        is2open = 1;
+        var p = document.getElementsByTagName("p")[10];
+        p.classList.remove("hidden");
+        return is2open;
+    } else {
+        is2open ++
+        var p = document.getElementsByTagName("p")[10];
+        p.classList.remove("hidden");
+        return is2open;
+    }
 }
 
 function showBug() {
-    hideAllParagraphs();
-    var p = document.getElementsByTagName("p")[11];
-    p.classList.remove("hidden");
+    if (is2open == 2) {
+        hideAllParagraphs()
+        is2open = 1;
+        var p = document.getElementsByTagName("p")[11];
+        p.classList.remove("hidden");
+        return is2open;
+    } else {
+        is2open ++
+        var p = document.getElementsByTagName("p")[1];
+        p.classList.remove("hidden");
+        return is2open;
+    }
 }
 
 function showRock() {
-    hideAllParagraphs();
-    var p = document.getElementsByTagName("p")[12];
-    p.classList.remove("hidden");
+    if (is2open == 2) {
+        hideAllParagraphs()
+        is2open = 1;
+        var p = document.getElementsByTagName("p")[12];
+        p.classList.remove("hidden");
+        return is2open;
+    } else {
+        is2open ++
+        var p = document.getElementsByTagName("p")[12];
+        p.classList.remove("hidden");
+        return is2open;
+    }
 }
 
 function showGhost() {
-    hideAllParagraphs();
-    var p = document.getElementsByTagName("p")[13];
-    p.classList.remove("hidden");
+    if (is2open == 2) {
+        hideAllParagraphs()
+        is2open = 1;
+        var p = document.getElementsByTagName("p")[13];
+        p.classList.remove("hidden");
+        return is2open;
+    } else {
+        is2open ++
+        var p = document.getElementsByTagName("p")[13];
+        p.classList.remove("hidden");
+        return is2open;
+    }
 }
 
 function showDragon() {
-    hideAllParagraphs();
-    var p = document.getElementsByTagName("p")[14];
-    p.classList.remove("hidden");
+    if (is2open == 2) {
+        hideAllParagraphs()
+        is2open = 1;
+        var p = document.getElementsByTagName("p")[14];
+        p.classList.remove("hidden");
+        return is2open;
+    } else {
+        is2open ++
+        var p = document.getElementsByTagName("p")[14];
+        p.classList.remove("hidden");
+        return is2open;
+    }
 }
 
 function showDark() {
-    hideAllParagraphs();
-    var p = document.getElementsByTagName("p")[15];
-    p.classList.remove("hidden");
+    if (is2open == 2) {
+        hideAllParagraphs()
+        is2open = 1;
+        var p = document.getElementsByTagName("p")[15];
+        p.classList.remove("hidden");
+        return is2open;
+    } else {
+        is2open ++
+        var p = document.getElementsByTagName("p")[15];
+        p.classList.remove("hidden");
+        return is2open;
+    }
 }
 
 function showSteel() {
-    hideAllParagraphs();
-    var p = document.getElementsByTagName("p")[16];
-    p.classList.remove("hidden");
+    if (is2open == 2) {
+        hideAllParagraphs()
+        is2open = 1;
+        var p = document.getElementsByTagName("p")[16];
+        p.classList.remove("hidden");
+        return is2open;
+    } else {
+        is2open ++
+        var p = document.getElementsByTagName("p")[16];
+        p.classList.remove("hidden");
+        return is2open;
+    }
 }
-
 function showFairy() {
-    hideAllParagraphs();
-    var p = document.getElementsByTagName("p")[17];
-    p.classList.remove("hidden");
+    if (is2open == 2) {
+        hideAllParagraphs()
+        is2open = 1;
+        var p = document.getElementsByTagName("p")[17];
+        p.classList.remove("hidden");
+        return is2open;
+    } else {
+        is2open ++
+        var p = document.getElementsByTagName("p")[17];
+        p.classList.remove("hidden");
+        return is2open;
+    }
 }
 
 function hideAllParagraphs() {
