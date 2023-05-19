@@ -203,6 +203,8 @@ function showFlying() {
     if (is2open == 2) {
         hideAllParagraphs()
         is2open = 1;
+        var p = document.getElementsByTagName("p")[9];
+        p.classList.remove("hidden");
         return is2open;
     } else {
         is2open ++
