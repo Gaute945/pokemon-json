@@ -63,91 +63,109 @@ async function getpokemon() {
 getpokemon();
 
 function showNormal() {
+    hideAllParagraphs();
     var p = document.getElementsByTagName("p")[0];
     p.classList.remove("hidden");
 }
 
 function showFire() {
+    hideAllParagraphs();
     var p = document.getElementsByTagName("p")[1];
     p.classList.remove("hidden");
 }
 
 function showWater() {
+    hideAllParagraphs();
     var p = document.getElementsByTagName("p")[2];
     p.classList.remove("hidden");
 }
 
 function showElectric() {
+    hideAllParagraphs();
     var p = document.getElementsByTagName("p")[3];
     p.classList.remove("hidden");
 }
 
 function showGrass() {
+    hideAllParagraphs();
     var p = document.getElementsByTagName("p")[4];
     p.classList.remove("hidden");
 }
 
 function showIce() {
+    hideAllParagraphs();
     var p = document.getElementsByTagName("p")[5];
     p.classList.remove("hidden");
 }
 
 function showFighting() {
+    hideAllParagraphs();
     var p = document.getElementsByTagName("p")[6];
     p.classList.remove("hidden");
 }
 
 function showPoison() {
+    hideAllParagraphs();
     var p = document.getElementsByTagName("p")[7];
     p.classList.remove("hidden");
 }
 
 function showGround() {
+    hideAllParagraphs();
     var p = document.getElementsByTagName("p")[8];
     p.classList.remove("hidden");
 }
 
 function showFlying() {
+    hideAllParagraphs();
     var p = document.getElementsByTagName("p")[9];
     p.classList.remove("hidden");
 }
 
 function showPsychic() {
+    hideAllParagraphs();
     var p = document.getElementsByTagName("p")[10];
     p.classList.remove("hidden");
 }
 
 function showBug() {
+    hideAllParagraphs();
     var p = document.getElementsByTagName("p")[11];
     p.classList.remove("hidden");
 }
 
 function showRock() {
+    hideAllParagraphs();
     var p = document.getElementsByTagName("p")[12];
     p.classList.remove("hidden");
 }
 
 function showGhost() {
+    hideAllParagraphs();
     var p = document.getElementsByTagName("p")[13];
     p.classList.remove("hidden");
 }
 
 function showDragon() {
+    hideAllParagraphs();
     var p = document.getElementsByTagName("p")[14];
     p.classList.remove("hidden");
 }
 
 function showDark() {
+    hideAllParagraphs();
     var p = document.getElementsByTagName("p")[15];
     p.classList.remove("hidden");
 }
 
 function showSteel() {
+    hideAllParagraphs();
     var p = document.getElementsByTagName("p")[16];
     p.classList.remove("hidden");
 }
 
 function showFairy() {
+    hideAllParagraphs();
     var p = document.getElementsByTagName("p")[17];
     p.classList.remove("hidden");
 }
